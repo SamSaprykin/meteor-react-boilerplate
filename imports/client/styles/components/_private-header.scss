@@ -1,0 +1,18 @@
+.private-header {    
+    background-color:$private-header-bg;
+    color:$private-header-color; 
+}
+
+.private-header__content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: $site-max-width;
+    margin:0 auto;
+    padding: $space 
+}
+
+.private-header__title {
+    margin-bottom: 0;    
+}
